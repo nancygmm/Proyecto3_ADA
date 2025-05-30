@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+venv/
+env/
+ENV/
+.venv/
+
+# Archivos temporales / del sistema
+*.log
+*.tmp
+*.swp
+*.DS_Store
+Thumbs.db
+
+# Archivos de prueba de editor
+*.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de configuración personales
+.env
+
+# Archivos de Python
+*.pyo
+*.pyd
+
+# Reportes exportados
+report/*.pdf
+report/video_link.txt
+
+# Archivos de ejecución
+*.out
+*.exe
