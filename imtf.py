@@ -14,7 +14,7 @@ def improved_move_to_front(lista, secuencia):
             "costo": costo
         })
 
-        lookahead = secuencia[i + 1:i + idx]
+        lookahead = secuencia[i + 1:i + 1 + (idx)]
         if solicitud in lookahead:
             lista.remove(solicitud)
             lista.insert(0, solicitud)
